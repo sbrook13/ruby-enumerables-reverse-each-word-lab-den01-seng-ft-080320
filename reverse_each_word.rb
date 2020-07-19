@@ -11,7 +11,6 @@ def reverse_each_word(str)
     reversed << new_word
   end
   reversed.join(" ")
-  reversed
 end
 binding.pry
 
