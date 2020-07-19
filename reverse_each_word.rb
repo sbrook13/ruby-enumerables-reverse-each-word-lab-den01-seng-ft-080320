@@ -1,4 +1,4 @@
-require 'pry'
+
 def reverse_each_word(str)
   words = str.split(" ")
   new_word = []
@@ -12,7 +12,7 @@ def reverse_each_word(str)
   end
   reversed.join(" ")
 end
-binding.pry
+
 
 #def reverse_each_word(str)
 #  words = str.split(" ")
