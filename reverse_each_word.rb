@@ -10,7 +10,7 @@ def reverse_each_word(str)
     puts new_word
     reversed << new_word
   end
-  return reversed.join(" ")
+  reversed.join(" ")
 end
 binding.pry
 
