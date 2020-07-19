@@ -2,12 +2,18 @@ require 'pry'
 def reverse_each_word(str)
   words = str.split(" ")
   new_word = []
+  reversed = []
   words.each do |w| 
     new_word = w.split("")
     new_word = new_word.reverse!
+    puts new_word
     new_word = new_word.join("")
-  }
-  new_word
+    puts new_word
+    reversed << new_word
+    puts reversed
+  end
+  reversed.join(" ")
+  puts reversed
 end
 binding.pry
 
